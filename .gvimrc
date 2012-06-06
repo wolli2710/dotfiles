@@ -1,6 +1,7 @@
 colorscheme darkblue
 
 "keymapping
+map nt <ESC>:NERDTree<CR>
 map <C-a> G$vgg
 map ü vaw
 map ä V
@@ -11,6 +12,10 @@ imap <C-s> <ESC>:w<CR>i
 imap <C-v> <ESC>p
 imap <C-x> x
 map <C-x> x
+map <C-c> y
+imap <C-c> <ESC>y
+
+imap <Tab> <C-N>
 
 set nobackup
 
