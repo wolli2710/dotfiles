@@ -15,7 +15,7 @@ map <C-x> x
 map <C-c> y
 imap <C-c> <ESC>y
 
-imap <Tab> <C-N>
+imap <C-Space> <C-N>
 
 set nobackup
 
